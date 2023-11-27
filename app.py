@@ -19,11 +19,11 @@ def get_pdf_text(pdf_docs):
     return text
 
 
-def get_text_chunks(text):
+def get_text_chunks(text, size = 1000, overlap = 200):
     text_splitter = CharacterTextSplitter(
         separator="\n",
-        chunk_size=1000,
-        chunk_overlap=200,
+        chunk_size=size,
+        chunk_overlap=overlap,
         length_function=len
     )
     chunks = text_splitter.split_text(text)
