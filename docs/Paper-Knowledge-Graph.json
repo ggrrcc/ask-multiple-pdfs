@@ -1,0 +1,1156 @@
+{
+  "version": "1.2.0-beta.0",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "position": {
+          "x": 0,
+          "y": 67.45286966602814
+        },
+        "caption": "Paper"
+      },
+      {
+        "id": "n1",
+        "position": {
+          "x": 0,
+          "y": 300
+        },
+        "caption": "Type"
+      },
+      {
+        "id": "n2",
+        "position": {
+          "x": 198.8986266966879,
+          "y": 463.6171282458446
+        },
+        "caption": "NPaper"
+      },
+      {
+        "id": "n3",
+        "position": {
+          "x": -165.25012305940393,
+          "y": 463.6171282458446
+        },
+        "caption": "MPaper"
+      },
+      {
+        "id": "n4",
+        "position": {
+          "x": 0,
+          "y": 711.5972583959684
+        },
+        "caption": "Author(s)"
+      },
+      {
+        "id": "n5",
+        "position": {
+          "x": 0,
+          "y": 890.647386457965
+        },
+        "caption": "Date"
+      },
+      {
+        "id": "n6",
+        "position": {
+          "x": 397.7972533933758,
+          "y": 147.52042915674912
+        },
+        "caption": "Introduction"
+      },
+      {
+        "id": "n7",
+        "position": {
+          "x": 0,
+          "y": 1069.6975145199617
+        },
+        "caption": "Abstract"
+      },
+      {
+        "id": "n8",
+        "position": {
+          "x": 0,
+          "y": 1248.7476425819584
+        },
+        "caption": "Keyword(s)"
+      },
+      {
+        "id": "n9",
+        "position": {
+          "x": 0,
+          "y": 1427.7977706439551
+        },
+        "caption": "References/Citations"
+      },
+      {
+        "id": "n10",
+        "position": {
+          "x": 397.7972533933758,
+          "y": 463.6171282458446
+        },
+        "caption": "\"Experiment\""
+      },
+      {
+        "id": "n11",
+        "position": {
+          "x": 397.7972533933758,
+          "y": 627.2342564916892
+        },
+        "caption": "Results"
+      },
+      {
+        "id": "n12",
+        "position": {
+          "x": 397.7972533933758,
+          "y": 300
+        },
+        "caption": "Background"
+      },
+      {
+        "id": "n13",
+        "position": {
+          "x": 397.7972533933758,
+          "y": 790.8513847375337
+        },
+        "caption": "Conclusion"
+      },
+      {
+        "id": "n14",
+        "position": {
+          "x": -344.3002511214005,
+          "y": 463.6171282458446
+        },
+        "caption": "Unfinished"
+      },
+      {
+        "id": "n15",
+        "position": {
+          "x": 550.2768242366267,
+          "y": 147.52042915674912
+        },
+        "caption": "Intro_Images"
+      },
+      {
+        "id": "n16",
+        "position": {
+          "x": 550.2768242366267,
+          "y": 300
+        },
+        "caption": "Bckgnd_Images"
+      },
+      {
+        "id": "n17",
+        "position": {
+          "x": 550.2768242366267,
+          "y": 463.6171282458446
+        },
+        "caption": "Exp_Images"
+      },
+      {
+        "id": "n18",
+        "position": {
+          "x": 550.2768242366267,
+          "y": 627.2342564916892
+        },
+        "caption": "Rez_Images"
+      },
+      {
+        "id": "n19",
+        "position": {
+          "x": 550.2768242366267,
+          "y": 790.8513847375337
+        },
+        "caption": "Conc_Images"
+      },
+      {
+        "id": "n20",
+        "position": {
+          "x": 0,
+          "y": 532.5471303339718
+        },
+        "caption": "Institution"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n0",
+        "type": "IS_NORMAL",
+        "fromId": "n1",
+        "toId": "n2"
+      },
+      {
+        "id": "n1",
+        "type": "IS_META",
+        "fromId": "n1",
+        "toId": "n3"
+      },
+      {
+        "id": "n2",
+        "type": "HAS_TYPE",
+        "fromId": "n0",
+        "toId": "n1"
+      },
+      {
+        "id": "n3",
+        "type": "WRITTEN_BY",
+        "fromId": "n2",
+        "toId": "n4"
+      },
+      {
+        "id": "n4",
+        "type": "HAS_DATE",
+        "fromId": "n2",
+        "toId": "n5"
+      },
+      {
+        "id": "n5",
+        "type": "WRITTEN_BY",
+        "fromId": "n3",
+        "toId": "n4"
+      },
+      {
+        "id": "n6",
+        "type": "HAS_DATE",
+        "fromId": "n3",
+        "toId": "n5"
+      },
+      {
+        "id": "n7",
+        "type": "HAS_INTRODUCTION",
+        "fromId": "n2",
+        "toId": "n6"
+      },
+      {
+        "id": "n8",
+        "type": "DESCRIBED_BY",
+        "fromId": "n2",
+        "toId": "n7"
+      },
+      {
+        "id": "n9",
+        "type": "HAS_KEYWORDS",
+        "fromId": "n2",
+        "toId": "n8"
+      },
+      {
+        "id": "n10",
+        "type": "CITES",
+        "fromId": "n2",
+        "toId": "n9"
+      },
+      {
+        "id": "n11",
+        "type": "HAS_EXPERIMENT",
+        "fromId": "n2",
+        "toId": "n10"
+      },
+      {
+        "id": "n12",
+        "type": "HAS_BACKGROUND",
+        "fromId": "n2",
+        "toId": "n12"
+      },
+      {
+        "id": "n13",
+        "type": "HAS_RESULTS",
+        "fromId": "n2",
+        "toId": "n11"
+      },
+      {
+        "id": "n14",
+        "type": "HAS_CONCLUSION",
+        "fromId": "n2",
+        "toId": "n13"
+      },
+      {
+        "id": "n15",
+        "type": "LEADS_TO_1",
+        "fromId": "n6",
+        "toId": "n12"
+      },
+      {
+        "id": "n16",
+        "type": "EXPLAINS_1",
+        "fromId": "n12",
+        "toId": "n10"
+      },
+      {
+        "id": "n17",
+        "type": "YIELDS_RESULTS",
+        "fromId": "n10",
+        "toId": "n11"
+      },
+      {
+        "id": "n18",
+        "type": "EXPLAINS_2",
+        "fromId": "n11",
+        "toId": "n13"
+      },
+      {
+        "id": "n19",
+        "type": "DESCRIBED_BY",
+        "fromId": "n3",
+        "toId": "n7"
+      },
+      {
+        "id": "n20",
+        "type": "HAS_KEYWORDS",
+        "fromId": "n3",
+        "toId": "n8"
+      },
+      {
+        "id": "n21",
+        "type": "CITES",
+        "fromId": "n3",
+        "toId": "n9"
+      },
+      {
+        "id": "n22",
+        "type": "",
+        "fromId": "n3",
+        "toId": "n14"
+      },
+      {
+        "id": "n23",
+        "type": "",
+        "fromId": "n6",
+        "toId": "n15"
+      },
+      {
+        "id": "n24",
+        "type": "",
+        "fromId": "n12",
+        "toId": "n16"
+      },
+      {
+        "id": "n25",
+        "type": "",
+        "fromId": "n10",
+        "toId": "n17"
+      },
+      {
+        "id": "n26",
+        "type": "",
+        "fromId": "n11",
+        "toId": "n18"
+      },
+      {
+        "id": "n27",
+        "type": "",
+        "fromId": "n13",
+        "toId": "n19"
+      },
+      {
+        "id": "n28",
+        "type": "WORKS_AT",
+        "fromId": "n4",
+        "toId": "n20"
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "1.2.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:n0",
+            "token": "Paper"
+          },
+          {
+            "$id": "nl:n1",
+            "token": "Type"
+          },
+          {
+            "$id": "nl:n2",
+            "token": "NPaper"
+          },
+          {
+            "$id": "nl:n3",
+            "token": "MPaper"
+          },
+          {
+            "$id": "nl:n4",
+            "token": "Author(s)"
+          },
+          {
+            "$id": "nl:n5",
+            "token": "Date"
+          },
+          {
+            "$id": "nl:n6",
+            "token": "Introduction"
+          },
+          {
+            "$id": "nl:n7",
+            "token": "Abstract"
+          },
+          {
+            "$id": "nl:n8",
+            "token": "Keyword(s)"
+          },
+          {
+            "$id": "nl:n9",
+            "token": "References/Citations"
+          },
+          {
+            "$id": "nl:n10",
+            "token": "\"Experiment\""
+          },
+          {
+            "$id": "nl:n11",
+            "token": "Results"
+          },
+          {
+            "$id": "nl:n12",
+            "token": "Background"
+          },
+          {
+            "$id": "nl:n13",
+            "token": "Conclusion"
+          },
+          {
+            "$id": "nl:n14",
+            "token": "Unfinished"
+          },
+          {
+            "$id": "nl:n15",
+            "token": "Intro_Images"
+          },
+          {
+            "$id": "nl:n16",
+            "token": "Bckgnd_Images"
+          },
+          {
+            "$id": "nl:n17",
+            "token": "Exp_Images"
+          },
+          {
+            "$id": "nl:n18",
+            "token": "Rez_Images"
+          },
+          {
+            "$id": "nl:n19",
+            "token": "Conc_Images"
+          },
+          {
+            "$id": "nl:n20",
+            "token": "Institution"
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:n0",
+            "labels": [
+              {
+                "$ref": "#nl:n0"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n1",
+            "labels": [
+              {
+                "$ref": "#nl:n1"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n2",
+            "labels": [
+              {
+                "$ref": "#nl:n2"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n3",
+            "labels": [
+              {
+                "$ref": "#nl:n3"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n4",
+            "labels": [
+              {
+                "$ref": "#nl:n4"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n5",
+            "labels": [
+              {
+                "$ref": "#nl:n5"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n6",
+            "labels": [
+              {
+                "$ref": "#nl:n6"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n7",
+            "labels": [
+              {
+                "$ref": "#nl:n7"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n8",
+            "labels": [
+              {
+                "$ref": "#nl:n8"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n9",
+            "labels": [
+              {
+                "$ref": "#nl:n9"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n10",
+            "labels": [
+              {
+                "$ref": "#nl:n10"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n11",
+            "labels": [
+              {
+                "$ref": "#nl:n11"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n12",
+            "labels": [
+              {
+                "$ref": "#nl:n12"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n13",
+            "labels": [
+              {
+                "$ref": "#nl:n13"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n14",
+            "labels": [
+              {
+                "$ref": "#nl:n14"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n15",
+            "labels": [
+              {
+                "$ref": "#nl:n15"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n16",
+            "labels": [
+              {
+                "$ref": "#nl:n16"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n17",
+            "labels": [
+              {
+                "$ref": "#nl:n17"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n18",
+            "labels": [
+              {
+                "$ref": "#nl:n18"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n19",
+            "labels": [
+              {
+                "$ref": "#nl:n19"
+              }
+            ],
+            "properties": []
+          },
+          {
+            "$id": "n:n20",
+            "labels": [
+              {
+                "$ref": "#nl:n20"
+              }
+            ],
+            "properties": []
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:n0",
+            "token": "IS_NORMAL"
+          },
+          {
+            "$id": "rt:n1",
+            "token": "IS_META"
+          },
+          {
+            "$id": "rt:n2",
+            "token": "HAS_TYPE"
+          },
+          {
+            "$id": "rt:n3",
+            "token": "WRITTEN_BY"
+          },
+          {
+            "$id": "rt:n4",
+            "token": "HAS_DATE"
+          },
+          {
+            "$id": "rt:n5",
+            "token": "WRITTEN_BY"
+          },
+          {
+            "$id": "rt:n6",
+            "token": "HAS_DATE"
+          },
+          {
+            "$id": "rt:n7",
+            "token": "HAS_INTRODUCTION"
+          },
+          {
+            "$id": "rt:n8",
+            "token": "DESCRIBED_BY"
+          },
+          {
+            "$id": "rt:n9",
+            "token": "HAS_KEYWORDS"
+          },
+          {
+            "$id": "rt:n10",
+            "token": "CITES"
+          },
+          {
+            "$id": "rt:n11",
+            "token": "HAS_EXPERIMENT"
+          },
+          {
+            "$id": "rt:n12",
+            "token": "HAS_BACKGROUND"
+          },
+          {
+            "$id": "rt:n13",
+            "token": "HAS_RESULTS"
+          },
+          {
+            "$id": "rt:n14",
+            "token": "HAS_CONCLUSION"
+          },
+          {
+            "$id": "rt:n15",
+            "token": "LEADS_TO_1"
+          },
+          {
+            "$id": "rt:n16",
+            "token": "EXPLAINS_1"
+          },
+          {
+            "$id": "rt:n17",
+            "token": "YIELDS_RESULTS"
+          },
+          {
+            "$id": "rt:n18",
+            "token": "EXPLAINS_2"
+          },
+          {
+            "$id": "rt:n19",
+            "token": "DESCRIBED_BY"
+          },
+          {
+            "$id": "rt:n20",
+            "token": "HAS_KEYWORDS"
+          },
+          {
+            "$id": "rt:n21",
+            "token": "CITES"
+          },
+          {
+            "$id": "rt:n22",
+            "token": ""
+          },
+          {
+            "$id": "rt:n23",
+            "token": ""
+          },
+          {
+            "$id": "rt:n24",
+            "token": ""
+          },
+          {
+            "$id": "rt:n25",
+            "token": ""
+          },
+          {
+            "$id": "rt:n26",
+            "token": ""
+          },
+          {
+            "$id": "rt:n27",
+            "token": ""
+          },
+          {
+            "$id": "rt:n28",
+            "token": "WORKS_AT"
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:n0",
+            "type": {
+              "$ref": "#rt:n0"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n2"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n1",
+            "type": {
+              "$ref": "#rt:n1"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n3"
+            },
+            "properties": [
+              {
+                "$id": "p:1",
+                "token": "Property 1",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "r:n2",
+            "type": {
+              "$ref": "#rt:n2"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n1"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n3",
+            "type": {
+              "$ref": "#rt:n3"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n4"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n4",
+            "type": {
+              "$ref": "#rt:n4"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n5"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n5",
+            "type": {
+              "$ref": "#rt:n5"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n4"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n6",
+            "type": {
+              "$ref": "#rt:n6"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n5"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n7",
+            "type": {
+              "$ref": "#rt:n7"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n6"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n8",
+            "type": {
+              "$ref": "#rt:n8"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n7"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n9",
+            "type": {
+              "$ref": "#rt:n9"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n8"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n10",
+            "type": {
+              "$ref": "#rt:n10"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n9"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n11",
+            "type": {
+              "$ref": "#rt:n11"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n10"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n12",
+            "type": {
+              "$ref": "#rt:n12"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n12"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n13",
+            "type": {
+              "$ref": "#rt:n13"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n11"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n14",
+            "type": {
+              "$ref": "#rt:n14"
+            },
+            "from": {
+              "$ref": "#n:n2"
+            },
+            "to": {
+              "$ref": "#n:n13"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n15",
+            "type": {
+              "$ref": "#rt:n15"
+            },
+            "from": {
+              "$ref": "#n:n6"
+            },
+            "to": {
+              "$ref": "#n:n12"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n16",
+            "type": {
+              "$ref": "#rt:n16"
+            },
+            "from": {
+              "$ref": "#n:n12"
+            },
+            "to": {
+              "$ref": "#n:n10"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n17",
+            "type": {
+              "$ref": "#rt:n17"
+            },
+            "from": {
+              "$ref": "#n:n10"
+            },
+            "to": {
+              "$ref": "#n:n11"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n18",
+            "type": {
+              "$ref": "#rt:n18"
+            },
+            "from": {
+              "$ref": "#n:n11"
+            },
+            "to": {
+              "$ref": "#n:n13"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n19",
+            "type": {
+              "$ref": "#rt:n19"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n7"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n20",
+            "type": {
+              "$ref": "#rt:n20"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n8"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n21",
+            "type": {
+              "$ref": "#rt:n21"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n9"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n22",
+            "type": {
+              "$ref": "#rt:n22"
+            },
+            "from": {
+              "$ref": "#n:n3"
+            },
+            "to": {
+              "$ref": "#n:n14"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n23",
+            "type": {
+              "$ref": "#rt:n23"
+            },
+            "from": {
+              "$ref": "#n:n6"
+            },
+            "to": {
+              "$ref": "#n:n15"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n24",
+            "type": {
+              "$ref": "#rt:n24"
+            },
+            "from": {
+              "$ref": "#n:n12"
+            },
+            "to": {
+              "$ref": "#n:n16"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n25",
+            "type": {
+              "$ref": "#rt:n25"
+            },
+            "from": {
+              "$ref": "#n:n10"
+            },
+            "to": {
+              "$ref": "#n:n17"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n26",
+            "type": {
+              "$ref": "#rt:n26"
+            },
+            "from": {
+              "$ref": "#n:n11"
+            },
+            "to": {
+              "$ref": "#n:n18"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n27",
+            "type": {
+              "$ref": "#rt:n27"
+            },
+            "from": {
+              "$ref": "#n:n13"
+            },
+            "to": {
+              "$ref": "#n:n19"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n28",
+            "type": {
+              "$ref": "#rt:n28"
+            },
+            "from": {
+              "$ref": "#n:n4"
+            },
+            "to": {
+              "$ref": "#n:n20"
+            },
+            "properties": []
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": []
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "unset",
+        "tableSchemas": []
+      },
+      "nodeMappings": [],
+      "relationshipMappings": []
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}

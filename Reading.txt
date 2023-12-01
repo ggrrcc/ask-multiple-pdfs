@@ -1,0 +1,2 @@
+https://towardsdatascience.com/lmql-sql-for-language-models-d7486d88c541
+https://medium.com/@peter.lawrence_47665/knowledge-graphs-large-language-models-the-ability-for-users-to-ask-their-own-questions-e4afc348fa72
